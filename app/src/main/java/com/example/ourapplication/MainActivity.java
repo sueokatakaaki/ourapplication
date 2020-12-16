@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String act = "Action123";
+                String act = "ActionBar2";
                 Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                         .setAction(act, null).show();
             }
@@ -35,8 +35,9 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present..
-        // abc
+        // Inflate the menu; this adds items to the action bar if it is present...
+        // abcde
+        // abe
         getMenuInflater().inflate(R.menu.menu_main, menu);
         return true;
     }
